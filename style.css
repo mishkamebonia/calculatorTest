@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #00022e;
+}
+input {
+  position: relative;
+  width: 100%;
+  text-align: right;
+  font-size: 26px;
+  padding: 25px 15px;
+  outline: none;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid black;
+  color: white;
+  background: transparent;
+}
+button {
+  cursor: pointer;
+}
+.btn {
+  background: #29304e;
+}
+.btn,
+.operator-btn,
+.enter-btn {
+  color: white;
+  font-size: 22px;
+  width: 80px;
+  flex-grow: 1;
+  padding: 25px 15px;
+  border: 0;
+  border-radius: 2px;
+}
+#delete-btn {
+  position: absolute;
+  background: transparent;
+  font-size: 24px;
+  border: 0;
+  outline: 0;
+  transition: 0.16s;
+}
+#delete-btn:hover {
+  color: red;
+}
+.enter-btn {
+  background: #062e03;
+  color: white;
+}
+.operator-btn {
+  background: #00022e;
+  color: white;
+}
+
+.container {
+  max-width: 400px;
+  margin: 30px auto;
+}
+.calculator {
+  border: 1px solid black;
+  padding: 15px;
+  background: #2a293e;
+}
+.screen {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
